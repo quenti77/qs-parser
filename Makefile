@@ -4,11 +4,11 @@ install:
 lint:
 	poetry run pre-commit run --all-files --hook-stage=manual --show-diff-on-failure
 type:
-	poetry run mypy
+	poetry run mypy .
 safety:
 	poetry run safety check --full-report
 test:
-	poetry run pytest
+	poetry run coverage run -m pytest
 test-cov:
 	poetry run coverage report
 test-doc:
