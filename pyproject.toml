@@ -1,10 +1,12 @@
 [tool.poetry]
-name = "qs-parser"
-version = "0.1.0"
+name = "query-parser"
+version = "0.1.1"
 description = ""
 authors = ["Quentin Ysambert <quentin.ysambert@gmail.com>"]
 readme = "README.md"
 packages = [{include = "qs_parser"}]
+repository = "https://github.com/quenti77/qs-parser"
+homepage = "https://github.com/quenti77/qs-parser"
 
 [tool.poetry.dependencies]
 python = "^3.11"

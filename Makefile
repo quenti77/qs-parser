@@ -8,7 +8,7 @@ type:
 safety:
 	poetry run safety check --full-report
 test:
-	poetry run pytest
+	poetry run coverage run -m pytest
 test-cov:
 	poetry run coverage report
 test-doc:
