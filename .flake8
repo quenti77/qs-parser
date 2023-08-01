@@ -11,3 +11,5 @@ exclude =
     .nox,
     .pytest_cache,
     .mypy_cache
+per-file-ignores =
+      tests/*:S101,B950
