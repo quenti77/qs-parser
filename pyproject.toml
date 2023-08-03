@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "query-parser"
-version = "0.1.1"
+version = "0.1.2"
 description = ""
 authors = ["Quentin Ysambert <quentin.ysambert@gmail.com>"]
 readme = "README.md"
