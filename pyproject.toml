@@ -38,6 +38,7 @@ source = ["qs_parser"]
 show_missing = true
 fail_under = 100
 include_namespace_packages = true
+exclude_lines = ["pragma: no cover", "raise NotImplementedError"]
 
 [tool.black]
 line-length = 88
